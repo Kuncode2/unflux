@@ -1,0 +1,68 @@
+.header-container {
+  margin: 0 20px; /* Margin for the header container */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #fff;
+  border-bottom: 2px solid #eaeaea; /* Add a bottom border to create a line between sections */
+}
+ hr{
+  color: red;
+ }
+.logo {
+  height: 80px; /* Adjust logo height to match desired size */
+  margin-left: 35px; /* Margin to the left of the logo */
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 35px; /* Margin to the right of the icons */
+}
+
+.icon {
+  height: 24px;
+  margin-right: 15px;
+}
+
+.coin-count {
+  margin-right: 15px;
+}
+
+.avatar {
+  height: 32px;
+  border-radius: 50%;
+}
+
+.nav-menu {
+  margin-top: 5px; /* Decreased margin to reduce spacing */
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu li {
+  margin: 0 10px;
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-icon {
+  height: 20px; /* Adjust size as needed */
+  margin-right: 5px; /* Space between icon and text */
+}
